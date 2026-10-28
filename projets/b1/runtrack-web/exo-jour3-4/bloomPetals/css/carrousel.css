@@ -1,0 +1,40 @@
+.carrousel {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Toutes les images sont cachées... */
+.carrousel img {
+  display: none;
+  width: 100%;
+  height: 450px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* ...sauf celle qui a la classe "active" */
+.carrousel img.active {
+  display: block;
+}
+
+/* Flèches */
+.carrousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.carrousel button:hover {
+  background: white;
+}
+
+.precedent { left: 10px; }
+.suivant   { right: 10px; }

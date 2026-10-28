@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BloomPetals</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/carrousel.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -27,18 +28,14 @@
     <a href="#" class="bouton">Call to action</a>
   </section>
 
-  <section class="realisations">
+ <section class="realisations">
     <h2>Nos plus belles réalisations</h2>
-    <div class="grille">
-      <div class="carte">
-            <img src="./images/image10.jpg" alt="Bouquet personnalisé" class="image">
-        </div>
-      <div class="carte">
-            <img src="./images/image9.jpg" alt="Bouquet personnalisé" class="image">
-        </div>
-      <div class="carte">
-            <img src="./images/image6.jpg" alt="Bouquet personnalisé" class="image">
-        </div>
+    <div class="carrousel">
+      <img src="./images/image10.jpg" alt="Réalisation florale" class="active">
+      <img src="./images/image9.jpg" alt="Réalisation florale">
+      <img src="./images/image6.jpg" alt="Réalisation florale">
+      <button class="precedent" aria-label="Image précédente">&#10094;</button>
+      <button class="suivant" aria-label="Image suivante">&#10095;</button>
     </div>
   </section>
 
@@ -93,6 +90,6 @@ s           ouvenirs mémorables de l'atelier.
       <a href="#">Contact</a>
     </nav>
   </footer>
-
+<script src="./js/carrousel.js"></script>
 </body>
 </html>

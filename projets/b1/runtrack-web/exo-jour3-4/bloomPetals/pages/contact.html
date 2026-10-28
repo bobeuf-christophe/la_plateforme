@@ -1,0 +1,90 @@
+<!-- PAGE CONTACT : seulement le contenu, sans <html>, <head> ni <body> -->
+
+<section class="fond-banniere py-5 text-center">
+  <h2 class="display-5">Contactez-nous</h2>
+  <p class="lead m-0">Une question, un projet floral ? Écrivez-nous, nous vous répondons sous 48h.</p>
+</section>
+
+<div class="container py-5">
+  <div class="row g-5">
+
+    <!-- Formulaire (8 colonnes sur 12) -->
+    <div class="col-lg-8">
+      <h3 class="fw-bold mb-4">Envoyez-nous un message</h3>
+
+      <form>
+        <div class="row g-3">
+
+          <div class="col-md-6">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="nom" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="prenom" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="prenom" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="nom@exemple.fr" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="telephone" class="form-label">Téléphone</label>
+            <input type="tel" class="form-control" id="telephone">
+          </div>
+
+          <div class="col-12">
+            <label for="sujet" class="form-label">Sujet</label>
+            <select class="form-select" id="sujet">
+              <option>Création de bouquets personnalisés</option>
+              <option>Décoration florale d'événements</option>
+              <option>Ateliers de composition florale</option>
+              <option>Autre demande</option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="6" required></textarea>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="accord" required>
+              <label class="form-check-label" for="accord">
+                J'accepte que mes données soient utilisées pour répondre à ma demande.
+              </label>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-gris btn-lg px-5">Envoyer</button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+
+    <!-- Coordonnées (4 colonnes sur 12) -->
+    <div class="col-lg-4">
+      <div class="card border-0 bg-light p-4">
+        <h3 class="fw-bold mb-4">Nos coordonnées</h3>
+
+        <p class="fw-bold mb-1">Adresse</p>
+        <p>12 rue des Fleurs<br>75000 Paris</p>
+
+        <p class="fw-bold mb-1">Téléphone</p>
+        <p>01 23 45 67 89</p>
+
+        <p class="fw-bold mb-1">Email</p>
+        <p>contact@bloompetals.fr</p>
+
+        <p class="fw-bold mb-1">Horaires</p>
+        <p class="m-0">Du mardi au samedi<br>9h – 19h</p>
+      </div>
+    </div>
+
+  </div>
+</div>
