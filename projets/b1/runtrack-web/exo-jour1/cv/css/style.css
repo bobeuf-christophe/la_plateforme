@@ -112,3 +112,13 @@ footer {
 footer a {
   font-size: 18px;
 }
+
+#vague {
+  font-size: 3rem;
+  font-weight: bold;
+  white-space: pre;      /* conserve les espaces */
+}
+
+#vague span {
+  display: inline-block; /* nécessaire pour pouvoir déplacer chaque lettre */
+}
