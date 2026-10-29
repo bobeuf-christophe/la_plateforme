@@ -1,6 +1,4 @@
-// PAGE CONTACT : le HTML est rangé dans une variable JavaScript
 const pageContact = `
-<!-- PAGE CONTACT : seulement le contenu, sans <html>, <head> ni <body> -->
 
 <section class="fond-banniere py-5 text-center">
   <h2 class="display-5">Contactez-nous</h2>
@@ -68,17 +66,15 @@ const pageContact = `
         </div>
       </form>
     </div>
-
-    <!-- Coordonnées (4 colonnes sur 12) -->
     <div class="col-lg-4">
       <div class="card border-0 bg-light p-4">
         <h3 class="fw-bold mb-4">Nos coordonnées</h3>
 
         <p class="fw-bold mb-1">Adresse</p>
-        <p>12 rue des Fleurs<br>75000 Paris</p>
+        <p>adresse 1</p>
 
         <p class="fw-bold mb-1">Téléphone</p>
-        <p>01 23 45 67 89</p>
+        <p>06 00 00 00 00</p>
 
         <p class="fw-bold mb-1">Email</p>
         <p>contact@bloompetals.fr</p>

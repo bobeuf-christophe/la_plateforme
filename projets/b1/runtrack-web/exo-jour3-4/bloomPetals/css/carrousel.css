@@ -2,23 +2,21 @@
   position: relative;
   max-width: 800px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
-/* Toutes les images sont cachées... */
 .carrousel img {
   display: none;
   width: 100%;
   height: 450px;
-  object-fit: contain;
+  object-fit:contain;
   border-radius: 10px;
 }
 
-/* ...sauf celle qui a la classe "active" */
 .carrousel img.active {
   display: block;
 }
 
-/* Flèches */
 .carrousel button {
   position: absolute;
   top: 50%;
@@ -36,5 +34,11 @@
   background: white;
 }
 
-.precedent { left: 10px; }
-.suivant   { right: 10px; }
+.carrousel .precedent { left: 10px; }
+.carrousel .suivant  { right: 10px; }
+
+
+
+
+
+
