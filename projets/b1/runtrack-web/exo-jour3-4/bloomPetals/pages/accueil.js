@@ -1,7 +1,14 @@
 const pageAccueil = `
 <section class="banniere">
-  <h2>Phrase d’accroche</h2>
-  <a href="#" class="bouton" onclick="afficherPage('contact'); return false;">Call to action</a>
+  <h2>À Propos de BloomPetals</h2>
+  <p>Chez BloomPetals, nous croyons que chaque célébration mérite d'être parée de la beauté
+     naturelle des fleurs. Nous sommes une entreprise passionnée et créative spécialisée dans
+     la confection de magnifiques bouquets floraux pour embellir vos événements spéciaux. Que
+     ce soit un mariage, un anniversaire, une réception ou toute autre occasion festive, nos
+     artisans floraux talentueux travaillent avec dévouement pour créer des arrangements
+     uniques et époustouflants qui émerveilleront vos invités.
+  </p>
+  <a href="#" class="bouton" onclick="afficherPage('contact'); return false;">Contactez-nous</a>
 </section>
 
  <section class="realisations">
